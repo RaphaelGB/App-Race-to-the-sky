@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="fundo_button">
+        <item name="colorAccent">@drawable/fundo_button_main</item>
+    </style>
+</resources>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_telas"
+    tools:context=".HistoriaPersonagens">
+
+
+    <ImageView
+        android:id="@+id/menu_hamb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="40dp"
+        app:srcCompat="@drawable/menu" />
+
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="144dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/logo_nome" />
+
+    <ImageView
+        android:id="@+id/img_voltar"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="103dp"
+        app:srcCompat="@drawable/flecha" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="103dp"
+        android:gravity="center|center"
+        android:text="@string/title_personagens"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="239dp"
+        android:gravity="center|center"
+        android:text="@string/text_personagens"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="383dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="Este é um horizontal scroll view para os personagens">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_sp"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/fundo_saponinja">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="66dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Sapo Ninja"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_below="@id/textView16"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="86dp"
+                    app:srcCompat="@drawable/img_sapo_ninja" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView20"
+                    android:layout_alignRight="@id/imageView20"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="161dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="-86dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="10dp"
+                    android:text="@string/hist_sp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_pm"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_fundo_pumarosa">
+
+                <TextView
+                    android:id="@+id/title_pm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="66dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Puma Rosa"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imagem_pm"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_below="@id/title_pm"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="86dp"
+                    app:srcCompat="@drawable/img_puma_rosa" />
+
+                <TextView
+                    android:id="@+id/histpm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagem_pm"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="161dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="-86dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="10dp"
+                    android:text="@string/hist_pm"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativelayout_he"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/fundo_homemespacial">
+
+                <TextView
+                    android:id="@+id/title_he"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="66dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Homem Espacial"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_he"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_below="@id/title_he"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="86dp"
+                    app:srcCompat="@drawable/img_homem_espacial" />
+
+                <TextView
+                    android:id="@+id/hist_he"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_he"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="161dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="-86dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="10dp"
+                    android:text="@string/hist_he"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relativelayout_xm"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/img_fundo_xamaveloz">
+
+                <TextView
+                    android:id="@+id/title_xm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="66dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="Xamã Veloz"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/img_xm"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_below="@id/title_xm"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="86dp"
+                    app:srcCompat="@drawable/img_xama_veloz" />
+
+                <TextView
+                    android:id="@+id/hist_xm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_xm"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="161dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="-86dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="10dp"
+                    android:text="@string/hist_xm"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">App_RaceToTheSky</string>
+    <string name="title_splash"><b> Se prepare para competir pelo título \n de melhor escalador de skypea </b></string>
+
+    <string name="title_main"> <b> Sky Race</b></string>
+    <string name="text_main">Você já se perguntou como é a \n sensação de desafiar a gravidade,
+         alcançar novos patamares e superar
+         seus próprios limites? </string>
+    <string name="text2_main">A escalada é a resposta!</string>
+    <string name="text3_main"> Se quiser embarcar nessa aventura... \n Vá para nosso site e comece a jogar!!</string>
+    <string name="text_button"><b>Clique aqui</b></string>
+    <string name="text1_historiajogo"><b> História do Jogo</b></string>
+    <string name="text2_historiajogo">Havia um mundo mágico e enigmático onde o
+        céu noturno brilhava com estrelas que
+        pareciam sussurrar segredos cósmicos. Quatro
+        aventureiros destemidos se reuniram com um
+        objetivo audacioso: escalar até as estrelas
+        através de plataformas que começavam dentro
+        de uma caverna misteriosa e se estendiam até
+        os confins do espaço.</string>
+    <string name="text3_historiajogo"><b>Personagens</b></string>
+    <string name="title_avaliacao"><b>Avaliação</b></string>
+    <string name="text_avaliacao">Nos dê seu feedback para que futuramente
+        possamos melhorar, sempre vamos levar sua opinião e s
+        sugestões em conta!</string>
+    <string name="text2_avaliacao">Quantas estrelas você daria para o jogo?</string>
+    <string name="text3_avaliacao">Título da avaliação:</string>
+    <string name="comentario_avaliacao">Escreva seu comentário:</string>
+    <string name="title_personagens"><b>Conheça Nossos Heróis</b></string>
+    <string name="text_personagens">Veja a história dos personagens que \n compõe nossa aventura</string>
+
+    //História dos personagens
+    <string name="hist_sp">O Sapo ninja é um personagem peculiar e habilidoso, perfeito para um jogo de escalada cheio de desafios e aventuras. Com seu corpo esguio e ágil, ele se destaca nas paredes rochosas mais íngremes e nas cavernas.</string>
+    <string name="hist_pm">A Puma Rosa é uma personagem única e fascinante, perfeita para um jogo de escalada que se desenrola em ambientes exuberantes e desafiadores.</string>
+    <string name="hist_he">O Homem espacial é um famoso personagem espacial, perfeito para um jogo de escalada que se desenrola em cenários desafiadores com seu traje espacial futurista e sua determinação incansável.</string>
+    <string name="hist_xm">O Xamã Veloz é um personagem místico e ágil, perfeito para um jogo de escalada que envolve desafios com suas habilidades xamânicas ele é uma escolha intrigante para enfrentar os perigos da escalada. </string>
+
+
+</resources>
